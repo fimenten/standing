@@ -1,9 +1,21 @@
 {
-    "name": "画像表示PWA",
-    "short_name": "画像PWA",
-    "start_url": "/index.html",
+    "name": "Simple Image Viewer",
+    "short_name": "ImageViewer",
+    "description": "A simple image viewer PWA",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#000000"
-
-}
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
