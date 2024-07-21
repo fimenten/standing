@@ -22,9 +22,9 @@ module.exports = {
   plugins: [
     new CopyPlugin({
       patterns: [
-        { from: "src/*.html" },
-        { from: "src/*.json" },
-        { from: "src/service-worker.js" },
+        { from: "src/index.html", to: "index.html" },
+        { from: "src/manifest.json", to: "manifest.json" },
+        { from: "src/service-worker.js", to: "service-worker.js" },
       ],
     }),
   ],
