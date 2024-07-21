@@ -1,0 +1,9 @@
+{
+    "name": "画像表示PWA",
+    "short_name": "画像PWA",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000"
+
+}
