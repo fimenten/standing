@@ -1,0 +1,1 @@
+const CACHE_NAME="image-viewer-cache-v1",urlsToCache=["/","/index.html","/index.js","/styles.css","/manifest.json","/icon-192x192.png","/icon-512x512.png"];self.addEventListener("install",(e=>{e.waitUntil(caches.open(CACHE_NAME).then((e=>e.addAll(urlsToCache))))})),self.addEventListener("fetch",(e=>{e.respondWith(caches.match(e.request).then((s=>s||fetch(e.request))))}));
