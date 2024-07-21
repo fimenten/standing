@@ -276,7 +276,7 @@ class App {
     private apiClient: ApiClient;
 
     constructor() {
-        const server_url = localStorage.getItem("defaultServer") || "http://localhost:8080";
+        const server_url = localStorage.getItem("defaultServerStanding") || "http://localhost:8080";
         const channel = localStorage.getItem("Channel") || "default-channel";
 
         this.apiClient = new ApiClient(server_url);
