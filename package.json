@@ -14,9 +14,8 @@
     "webpack-dev-server": "^5.0.4",
     "copy-webpack-plugin": "^11.0.0"
   },
-  "scripts": {
-    "start": "webpack serve --open --mode development",
-    "build": "webpack --mode production && npm run copy-files",
-    "copy-files": "cp src/*.html dist/ && cp src/*.json dist/ && cp src/service-worker.js dist/"
-  }
+"scripts": {
+  "start": "webpack serve --open --mode development",
+  "build": "webpack --mode production"
+}
 }
